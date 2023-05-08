@@ -81,3 +81,65 @@
 
 //}
 //console.log(calcularIdade(anoNasc));
+
+//switch case-05/04
+
+//exercicio-5)
+
+//let ensinoMedio = prompt('concluiu ensino medio? [sim/nao]');
+//let idade = Number (prompt('sua idade'));
+//let outraFaculdade = prompt('esta cursando faculdade [sim/nao]')
+//verificarFaculdade(ensinoMedio, idade, outraFaculdade);
+//let mensagem = '';
+//function verificarFaculdade(ensinoMedio,idade,outraFaculdade) {
+// if (ensinoMedio === 'sim' && idade >= 18 && outraFaculdade === 'nao'){
+//  mensagem = 'seja bem vindo/a'
+// }else{
+//  mensagem = 'voce nao pode entrar em nossa instituicao'
+// }
+// return mensagem
+//}
+//let resultado = verificarFaculdade(ensinoMedio,idade,outraFaculdade);
+//console.log(resultado)
+
+//exrcicio-6)
+//let pais = 'croacia';
+
+//switch(pais) {
+//  case 'brasil':
+//    return 'brasileiro';
+//    break;
+//    default:
+//      return 'nacionalidade n encontrada'
+//      break;
+//}
+
+//exercicio-7)
+
+let algarismo1 = Number(prompt('numero 1:'));
+let algarismo2 = Number(prompt('numero 2:'));
+
+let opcao = Number(prompt("digite uma opcao:\n1- soma\n2-subtracao\n3-multiplicacao \n4-divisao"));
+
+switch(opcao) {
+  case 1:
+    let soma = algarismo1 + algarismo2;
+    console.log(soma);
+    break;
+    case 2:
+      let subtracao = algarismo1 - algarismo2;
+      console.log(subtracao);
+    break;
+    case 3:
+      let multiplicacao = algarismo1 + algarismo2;
+      console.log(multiplicacao);
+      break;
+      case 4:
+        let divisao = algarismo1 + algarismo2;
+        console.log(divisao);
+        break;
+  default:
+    console.log('opcao nao encontrada')
+    break;
+}
+
